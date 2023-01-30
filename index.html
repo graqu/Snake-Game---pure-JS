@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="script.js" defer type="module"></script>
+
+<body>
+    <div class="welcome-text">
+        <p> press one of arrow key to start<br> ⬆️ ⬇️ ➡️ ⬅️</p>
+    </div>
+    <div class="options">
+        <h1>Snake</h1>
+
+        <div class="panel">
+            <button class="btn change-btn prev-btn">◀</button>
+            <div class="speed-control card " data-id="1">
+                <label for="speed-select">speed:</label>
+
+                <select name="speeds" id="speed-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <button class="btn submit">apply</button>
+            </div>
+            <div class="color-set card" data-id="2">
+                <h3>Color scheme:</h3>
+                <button class="btn color-default-btn">Default</button>
+                <button class="btn btn-mini color-default-btn2">D</button>
+
+                <button class="btn color-nokia-btn">Nokia <3 </button>
+                <button class="btn btn-mini color-nokia-btn2">N</button>
+            </div>
+            <div class="points card show" data-id="3">
+                <h3>Points</h3>
+                <p class="current-score">0 Pkt</p>
+            </div>
+            <button class="btn change-btn next-btn">▶</button>
+        </div>
+
+    </div>
+    <div id="game-board">
+
+    </div>
+
+</body>
+
+</html>
