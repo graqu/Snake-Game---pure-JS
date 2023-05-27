@@ -1,5 +1,7 @@
 **Snake - Desktop game**
 
+Play here - https://graqu.github.io/Snake-Game---pure-JS/
+
 Hello here you can play snake game. The core of program like:
 
 - Animation
